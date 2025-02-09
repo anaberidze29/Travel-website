@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.banner {
+    width: 100%;
+    height: 800px;
+    background-image: url('../images/banner.jpg');
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-div {
+    width: 100%;
+    height: 70px;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.logo {
+    width: 20%;
+    height: 70px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.logo-text {
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav {
+    width: 45%;
+    height: 70px;
+}
+.nav-links {
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+.nav-link {
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+.nav-link:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.reg {
+    width: 100px;
+    height: 40px;
+    border-radius: 20%;
+    background-color: #f1f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'poppins';
+    font-weight: 500;  
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.reg:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.banner-details {
+    width: 100%;
+    padding: 20px 15%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.badge {
+    width: max-content;
+    padding: 10px 20px;
+    font-family: 'poppins';
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #f1f0f0;
+}
+.banner-heading {
+    font-size: 60px;
+    font-family: 'poppins';
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+}
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #000;
+    color: white;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.booking {
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #FFF;
+    display: flex;
+    column-gap: 20px;
+    opacity: 0.7;
+}
+.inp {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    row-gap: 5px;
+    justify-content: flex-end;
+}
+.input2 {
+    height: 40px;
+    text-indent: 5px;
+    font-size: 16px;
+}
+.book-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #000;
+    color: #FFF;
+}
+.book-btn:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.about {
+    width: 100%;
+    padding: 50px 15%;
+    background-color: #FFF;
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 200;
+    word-spacing: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.highlight {
+    font-weight: bold;
+    font-size: 35px;
+}
+.icon {
+    font-size: 50px;
+    color: #028bd6;
+}
+.hotel-rooms {
+    width: 100%;
+    padding: 50px 15%;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #fffafa;
+}
+.section-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+.rooms-area {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    row-gap: 50px;
+}
+.rooms {
+    width: 30%;
+    background-color: #FFF;
+}
+.room-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.room-image {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.room-image:hover {
+    transform: scale(1.5);
+}
+.room-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+.text {
+    font-weight: bold;
+    font-size: 20px;   
+}
+.subscribe {
+    width: 100%;
+    padding: 50px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-text {
+    width: 45%;
+    padding: 20px;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.logo2 {
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sub-desc {
+    font-size: 15px;
+}
+.sub-area {
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'poppins';
+    row-gap: 20px;
+}
+.text2 {
+    font-family: 'poppins';
+}
+.sub-form {
+    display: flex;
+}
+.sub-inp {
+    width: 70%;
+    height: 60px;
+}
+.food {
+    width: 100%;
+    height: 1000px;
+    padding: 50px 15%;
+    background-color: #fff;
+    background-image: url('../images/restaurant.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+}
+.food-detail {
+    width: 60%;
+    padding: 50px;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+.section-header {
+    font-size: 50px;
+}
+.premium {
+    width: 100%;
+    padding: 50px;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    background-color: #f9f9f9;
+}
+.prooms-area {
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;  
+    display: flex;
+    justify-content: space-between;
+}
+.proom-img {
+    width: 35%;
+    height: 1000px;
+    overflow: hidden;
+}
+.proom-boxes {
+    width: 60%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.proom-image {
+    width: 100%;   
+}
+.proom-box {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+.gallery {
+    width: 100%;
+    padding: 50pxc 15%;
+    background-color: #000;  
+}
+.gal-image {
+    width: 33%;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.5 !important;
+}
+.gal-image:hover {
+    opacity: 1 !important;
+}

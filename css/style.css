@@ -171,7 +171,7 @@
     gap: 10px;
     background-color: #fffafa;
 }
-.section-title {
+.text1-title {
     font-weight: bold;
     font-size: 30px;
 }
@@ -320,8 +320,16 @@
 }
 .gallery {
     width: 100%;
-    padding: 50pxc 15%;
-    background-color: #000;  
+    padding: 50px 15%;
+    background-color: #000; 
+    row-gap: 10px; 
+}
+.text2-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF;
+    padding: 30px 10px;
+    text-align: center;
 }
 .gal-image {
     width: 33%;
@@ -332,3 +340,7 @@
 .gal-image:hover {
     opacity: 1 !important;
 }
+
+
+
+@media ()

@@ -71,6 +71,9 @@
     color: #fff;
     cursor: pointer;
 }
+.burger-bar {
+    display: none;
+}
 .banner-details {
     width: 100%;
     padding: 20px 15%;
@@ -109,12 +112,12 @@
     cursor: pointer;
 }
 .booking {
-    width: 100%;
+    /* width: 100%; */
     padding: 20px 10px;
     background-color: #FFF;
     display: flex;
     column-gap: 20px;
-    opacity: 0.7;
+    opacity: 0.7 !important;
 }
 .inp {
     width: 20%;
@@ -256,7 +259,7 @@
 }
 .food {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     padding: 50px 15%;
     background-color: #fff;
     background-image: url('../images/restaurant.jpg');
@@ -266,13 +269,16 @@
     justify-content: flex-end;
 }
 .food-detail {
-    width: 60%;
+    width: 50%;
     padding: 50px;
     font-family: 'poppins';
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     row-gap: 15px;
+}
+.food-text {
+    font-weight: bold;
 }
 .section-header {
     font-size: 50px;
@@ -342,5 +348,240 @@
 }
 
 
-
-@media ()
+@media (max-width: 1097px) {
+    .premium {
+        width: 100%;
+    }
+    .proom-img {
+        width: 60%;
+    }
+    .text1-title {
+        font-size: 20px;
+    }
+    .gallery {
+        text-align: center;
+   }
+}
+@media (max-width: 1024px) {
+    .logo {
+        gap: 5px;
+    }
+    .booking {
+        column-gap: 2px;
+    }
+    .numb {
+        font-size: 14px;
+    }
+    .sub-inp {
+        width: 90%;
+    }
+    .div-food {
+        width: 50%;
+    }
+    .food-detail {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 25%;
+    }
+    .food-text {
+        font-size: 30px;
+        text-align: center;
+    }
+    .gallery {
+        text-align: center;
+    }      
+}
+@media (max-width: 955px) {
+    .nav {
+        display: none;
+    }
+}
+@media (max-width: 935px) { 
+     .input2 {
+        font-size: 14px;
+     }
+     .numb2 {
+        font-size: 12px;
+     }
+}
+@media (max-width: 930px) {
+    .logo {
+        font-size: 20px;
+        width: 100%;
+   }
+    .nav {
+        display: none;
+    }
+    .reg {
+        display: none;
+    }
+    .burger-bar {
+        display: block;
+        padding: 25px;
+        text-align: center;
+        align-items: center;
+    }
+    .numb2 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .sub-btn {
+        width: 60%
+    }
+    .sub-area {
+        width: 70%;
+    }
+    .proom-img {
+        display: none;
+    }
+    .proom-boxes {
+        width: 100%;
+    }
+    .text {
+        font-size: 16px;
+    }
+}
+@media (max-width: 788px) { 
+    .input2 {
+       font-size: 11px;
+    } 
+}
+@media (max-width: 768px) {
+    .logo {
+        font-size: 20px;
+        width: 100%;
+    }
+    .nav {
+        display: none;
+    }
+    .reg {
+        display: none;
+    }
+    .burger-bar {
+        display: block;
+        padding: 25px;
+        text-align: center;
+        align-items: center;
+    }
+    .numb2 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .sub-btn {
+        width: 60%
+    }
+    .sub-area {
+        width: 70%;
+    }
+    .proom-img {
+        display: none;
+    }
+    .proom-boxes {
+        width: 100%;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .roomb {
+        display: none;
+    }
+    .rooms-area {
+        flex-direction: column;
+    }
+    .rooms {
+        width: 100%;
+    }
+    .subscribe {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text4 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 758px) { 
+    .input2 {
+       font-size: 9px;
+    } 
+    .text {
+        font-size: 14px;
+    }
+}
+@media (max-width: 557px) {
+    .booking {
+        width: 140%;
+    } 
+}
+@media (max-width: 480px) {
+    .sub-btn {
+        width: 60%
+    }
+    .sub-area {
+        width: 100%;
+    }
+    .sub-text {
+        width: 100%;
+    }
+}
+@media (max-width: 477px) {
+    .premium {
+        height: 1300px;
+        font-size: 10px;
+    } 
+}
+@media (max-width: 451px) {
+    .banner-heading {
+        font-size: 20px;
+    }
+    .banner-details {
+        margin-top: 50px;  
+    }
+    .badgep {
+        font-size: 20px;
+    }
+    .booking {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .inp {
+        width: 50%;
+    }
+    .food-text {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .food-p {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .food-detail {
+        width: 100%;
+    }
+}
+@media (max-width: 374px) {
+    .badgep {
+        font-size: 15px;
+    }
+    .sub-form {
+        flex-direction: column;
+    }
+    .sub-text {
+        width: 100%;
+    }
+    .sub-btn {
+        width: 90%;
+    }
+}
+@media (max-width: 320px) {
+    .text2 {
+        font-size: 15px;
+    }
+    .gal-image {
+        display: none;
+    }
+    .img1 {
+        display: block;
+        width: 100%;
+    }
+}

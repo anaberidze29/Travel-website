@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travel Best, Explore The Beauty of Greece">
+    <meta name="keywords" content="travel, discover, greece, greek cuisine, greek food, traveling">
+    <meta name="author" content="Ana Beridze">
+    <meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html">
+    <meta property="og:type" content="Travel Website">
+    <meta property="og:title" content="When Great Time to Travel?">
+    <meta property="og:description" content="Travel and Explore The Beauty of Greece">
+    <meta property="og:image" content="https://github.com/anaberidze29/final-project/blob/main/images/banner.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="images/icon.webp">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
@@ -24,11 +33,14 @@
             </div>
             <nav class="nav">
                 <ul class="nav-links">
-                    <li class="nav-link">Home</li>
-                    <li class="nav-link">Hotels</li>
-                    <li class="nav-link">Premium</li>
-                    <li class="nav-link">Gallery</li>
-                    <li class="nav-link">About</li>
+                    <li><a class="nav-link" href="#homePage">Home</a></li>
+                    <li><a class="nav-link" href="#About">About</a></li>
+                    <li><a class="nav-link" href="#Subscribe">Subscribe</a></li>
+                    <li><a class="nav-link" href="#Food">Food</a></li>
+                    <li><a class="nav-link" href="#Hotels">Hotels</a></li>
+                    <li><a class="nav-link" href="#Premium">Premium</a></li>
+                    <li><a class="nav-link" href="#Gallery">Gallery</a></li>
+                    
                 </ul>
             </nav>
             <div class="reg">
@@ -38,15 +50,15 @@
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
-        <div class="banner-details">
+        <div class="banner-details" id="homePage">
             <div class="badge" data-aos="fade-up" data-aos-duration="1000">
                 <p class="badgep">Best travel places for you from us</p>
             </div>
             <h1 class="banner-heading" data-aos="fade-up" data-aos-duration="1000">
-                Explor The Beauty of Greece
+                Explore The Beauty of Greece
             </h1>
             <button class="btn" data-aos="fade-up" data-aos-duration="1000">
-                Explor Now
+                Explore Now
             </button>
             <div class="booking" data-aos="fade-up" data-aos-duration="1000">
                 <div class="inp">
@@ -74,26 +86,26 @@
         </div>
     </header>
     <main>
-        <section class="first-section">
+        <section class="first-section" id="About">
             <div class="about">
                 <i class="fa-solid fa-earth-europe icon"></i>
                 <h4 class="text4">
                    <span class="highlight">Greece</span>
-                   Travel tips for exploring the southern European country. Visit the land that was once loved by the Greek gods and discover the magnificent monuments that testify to the glory of the bygone days. Today, Greece is a paradise for everyone, from holidaymakers to travellers. Its numerous islands are captivating and then there is also the capital of Athens. Greece also invites visitors with the fragrances of the Mediterranean flora.
+                   Travel tips for exploring the southern European country. Visit the land that was once loved by the Greek gods and discover the magnificent monuments that testify to the glory of the bygone days. Today, Greece is a paradise for everyone, from holidaymakers to travelers. Its numerous islands are captivating and then there is also the capital of Athens. Greece also invites visitors with the fragrances of the Mediterranean flora.
                 </h4>
             </div>
         </section>
-        <section class="second-section">
+        <section class="second-section" id="Hotels">
             <div class="hotel-rooms">
-                <h2 class="text1-title">Best Of Greek Hotel Rooms</h2>
-                <p>It promises so much for all the family. enticing spa, restaurants with Greek cuisine.</p>
+                <h2 class="text1-title text-2">Best Of Greek Hotel Rooms</h2>
+                <p class="p-text">It promises so much for all the family. enticing spa, restaurants with Greek cuisine.</p>
                 <div class="rooms-area">
                     <div class="rooms" data-aos="fade-up" data-aos-duration="1000">
                         <div class="room-img">
                             <img class="room-image" src="images/room1.jpg" alt="room">
                         </div>
                         <div class="room-details">
-                            <h2 class="text">Delux Villa</h2>
+                            <h2 class="text">Deluxe Villa</h2>
                             <h3 class="text">$300 / Night</h3>
                             <p>Our suites introduce different themes, a wholly unique creative expression, making every single stay unique, even for our repeat guests.</p>
                         </div>
@@ -169,7 +181,7 @@
                 </div>
             </div>
         </section>
-        <section class="third-section">
+        <section class="third-section" id="Subscribe">
             <div class="subscribe">
                 <div class="sub-text">
                     <div class="logo2">
@@ -191,7 +203,7 @@
                 </div>
             </div>
         </section>
-        <section class="forth-section">
+        <section class="forth-section" id="Food">
             <div class="food">
                 <div class="food-detail">
                    <h2 class="text1-header food-text">
@@ -204,12 +216,12 @@
                 </div>
             </div>
         </section>
-        <section class="sixth-section">
+        <section class="sixth-section" id="Premium">
             <div class="premium" data-aos="zoom-in" data-aos-duration="1000">
-                <h2 class="text1-title">
+                <h2 class="text1-title premhead">
                     Some Premium Rooms That We Provide
                 </h2>
-                <p>At the hotel all rooms are fitted with everything you need.</p>
+                <p class="premhead">At the hotel all rooms are fitted with everything you need.</p>
                 <div class="prooms-area">
                     <div class="proom-img">
                         <img class="proom-image" src="images/vertical.jpg" alt="vertical">
@@ -235,7 +247,7 @@
                                 Explore More Options
                             </button>
                         </div>
-                        <div class="proom-box">
+                        <div class="proom-box last-box">
                             <h2 class="text1-title">
                                 Premium Lake Side Room
                             </h2>
@@ -249,7 +261,7 @@
                 </div>
             </div>
         </section>
-        <section class="seventh-section">
+        <section class="seventh-section" id="Gallery">
             <div class="gallery">
                 <h2 class="text2-title">Check Our Gallery</h2>
                 <img class="gal-image img1" data-aos="fade-up" data-aos-duration="1000" src="images/gallery1.jpg" alt="gallery">
@@ -260,32 +272,70 @@
                 <img class="gal-image" data-aos="fade-up" data-aos-duration="1000" src="images/gallery6.jpg" alt="gallery">
             </div>
         </section>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
     </main>
     <footer>
         <div class="footer">
-            <div>
-                <img src="images/logo.svg" alt="logo">
-                <p class="logo-text">Best Travel</p>
-            </div>
-            <div class="footer-wrapper">
-                <div class="footer-box">
-                    <h5 class="footer-h">About Us</h5>
-                    <p class="p-about">We are a group of motivated people with a common passion: Exploring Greece and the Greek islands. Traveling is our second nature! Our motto? Travel to the fullest!
-                        Our goal is to show the beauty of Greece and to offer the best holiday services!</p>
-                    <div class="footer-img">
-                        <img src="" alt="logo">
-                        <img src="" alt="logo">
-                        <img src="" alt="logo">
-                        <img src="" alt="logo">
+            <div class="container">
+                <div class="footer-logo">
+                    <a class="footer-a" href="index.html">
+                        <img class="footer-image" src="images/logo.svg" alt="logo">
+                    </a>
+                    <p class="logo-text footer-logo-t">Best Travel</p>
+                </div>
+                <div class="detail">
+                    <h3 class="footer-text">Get In Touch</h3>
+                    <div class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+99532222222">+995 32 222 222</a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fa-solid fa-at"></i>
+                        <a href="mailto:example@gmail.com">example@gmail.com</a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="https://www.google.com/maps/place/Greece/data=!4m2!3m1!1s0x135b4ac711716c63:0x363a1775dc9a2d1d?sa=X&ved=1t:242&ictx=111" target="_blank">Greece, Athens</a>                    
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                     </div>
                 </div>
+                <div class="about-us">
+                    <h4 class="footer-text text2">About Us</h4>
+                    <ul class="ul-li">
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our terms</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="about-us">
+                    <h4 class="footer-text text2">Help</h4>
+                    <ul class="ul-li">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">booking Guide</a></li>
+                        <li><a href="#">Cancellation Policy</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="about-us">
+                    <h4 class="footer-text  text2">Resources</h4>
+                    <ul class="ul-li">
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Offers</a></li>
+                    </ul>
+                </div>
             </div>
-            
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -14,7 +14,9 @@
     height: 36px;
     background: rgba(0, 0, 0, 0.66);
     border-radius: 50% 0 50% 50%;
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
     z-index: 9;
   }
   #scroll-text{
